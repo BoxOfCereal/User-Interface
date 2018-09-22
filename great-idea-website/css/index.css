@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+header{
+	width: 876px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 10px 0px;
+	/* border: 1px solid black; */
+	position: relative;
+}
+
+header nav {
+	display: inline-block;
+	margin-left: 25px;
+	/* border: 1px solid black; */
+}
+
+header img.logo{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #999;
+	margin: 10px;
+	padding: 0px 15px;
+}
+
+/* main container */
+.container{
+	width: 876px;
+	margin: 0 auto;
+	/* This fixes collapsing margins but I don't know why */
+	padding-top: 1px;
+	
+}
+
+.container .jumbotron{
+	position: relative;
+	margin-bottom: 450px;
+}
+
+/* The divs that contain the catch phrase and round image */
+.container .jumbotron div{
+	display: inline-block;
+}
+
+.container .jumbotron div.right{
+	position: absolute;
+	right: 0;
+}
+
+.container .jumbotron div.left{
+	font-size: 78px;
+	font-family: 'Bangers', cursive;
+	text-align: center;
+
+	position: absolute;
+	left: 100px;
+	top: 50px;
+}
+
+
+a.button{
+	font-size: 16px;
+	font-family: 'Titillium Web', sans-serif;
+	text-decoration: none;
+	color: black;
+	padding: 2px 30px;
+	border: 1px solid black;
+	position: absolute;
+	left: 80px;
+	top: 240px;
+}
+
+
+
+/* The divs that contain features about etc. */
+div.column{
+	display: inline-block;
+}
+
+/* The section containing features and about */
+section.features-about{
+	/* TB LR */
+	padding: 20px 0px;
+}
+
+section.features-about div{
+	width: 50%;
+}
+
+
+/* section containing services product vision */
+section.details{
+	padding: 20px 0px;
+}
+
+section.details div{
+	width: 33%;
+}
+
+hr.footer-seperation{
+	border-color:lightgray;
+}
